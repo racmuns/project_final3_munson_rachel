@@ -1,0 +1,175 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,900,800,700,600,500,300,200,100);
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script:400,700);
+
+
+
+html,body {
+	height:100%;
+		background: url(../img/wood.jpg);
+		color:#000;
+		font-family: 'Raleway', sans-serif;
+		text-align: center;
+}
+
+nav {
+
+
+}
+
+nav a{
+	position: relative;
+	top: 50%;
+	color: #3f1414;
+	padding-left: 1em;
+	padding-right: 1em;
+	font-weight: bold;
+}
+
+#navbar{
+	background-color: #f2803d;
+	height: 5%;
+}
+
+#slides {
+    display:none;
+ }
+
+h1 {
+	font-family: 'Dancing Script', sans-serif;
+	font-size: 3.0em;
+	color: #3f1414;
+}
+
+h2 {
+	font-size: 1.5em;
+	color: #3f1414;
+}
+
+/*link text*/
+a {
+		color:#999;
+		/*color, font, size*/
+}
+
+/*hovering over a link*/
+a:hover {
+		color:#a50102;
+}
+/*picture widths*/
+.subhead {
+	max-width: 100%;
+	display: inline;
+}
+
+.heading {
+	border: 0.2em solid #da580c;
+	/*border-radius: 10px;*/
+}
+
+table {
+	text-align: center;
+	margin: auto;
+	width: 95%;
+	border-spacing: 0.5em;
+	border-collapse: separate;
+}
+
+thead {
+	font-family: 'Dancing Script', sans-serif;
+	background-color: #f2803d;
+	border-spacing: 1em;
+	border-collapse: separate;
+	border: 2em solid red;
+	color: #1f263f;
+}
+/*applies to all cells in the table*/
+
+td {
+	border-spacing: 1em;
+	border-collapse: separate;
+	padding-top: 1em;
+}
+
+/*button style things. like color of the button background, text info*/
+button {
+	background-color: #f2803d;
+	font-family: 'Dancing Script', sans-serif;
+	padding: 0.5em;
+	font-size: 1.5em;
+	float: left;
+	color: #3f4c7a;
+	border-radius: 2em;
+	padding-left: 1em;
+}
+
+button:hover {
+	background-color: #3f4c7a;
+	color: #3f1414;
+}
+
+.inline {
+	margin: auto;
+	width: 35%;
+	padding-top: 1.5em;
+}
+
+.menu {
+	font-family: 'Dancing Script', sans-serif;
+	color: #3f4c7a;
+	font-size: 2.5em;
+	float: right;
+	padding-right: 1em;
+}
+
+.menu_description{
+font-family: 'Raleway';
+font-size: 0.75em;
+}
+
+#container {
+	background-color: #f9e5a0;
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+	padding-top: 1em;
+	padding-bottom: 3em;
+	margin-top: 1.5em;
+}
+
+.subhead {
+	width: 100%;
+	height: 50%;
+}
+
+
+.stacking {
+	width: 100%;
+	display: block;
+}
+
+@media (min-width: 608px) {
+	.stacking {
+	width: 30%;
+	display: inline-block;
+	vertical-align: bottom;
+	}
+
+	#container {
+	width: 65%;
+	}
+}
+
+
+/*
+color swatches
+darkblue: #1f263f;
+blue: #3f4c7a;
+yellow:#f8dc7a;
+orange:#f2803d;
+red:#a50102;
+maroon:#3f1414;
+background yellow: #faf5e2;
+dark orange: #da580c;
+*/
+
+

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Gusteau's</title>
+		<meta name="description" content="Gusteau's Restaurant.">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+		<link rel="stylesheet" href="css/main.css" />
+		<link type="text/css" rel="stylesheet" href="js/Responsive-Tabs/css/responsive-tabs.css" />
+		<link type="text/css" rel="stylesheet" href="js/Responsive-Tabs/css/style.css" />
+		<link type="text/css" rel="stylesheet" href="css/responsive-tabs.css" />
+		<link type="text/css" rel="stylesheet" href="css/style.css" />
+
+		<script src="js/Responsive-Tabs/jquery.responsiveTabs.js"></script>
+		<script>
+			$('#responsiveTabs').responsiveTabs({
+   			 startCollapsed: 'accordion'
+			});
+		</script>
+	</head>
+	<body>
+		<nav id="navbar">
+			<a href="index.html">Home</a>
+			<a href="menu.html">Menu</a>
+			<a href="contact.html">Contact</a>
+			<a href="location.html">Location</a>
+		</nav>
+
+		<div id="container">
+			<div  class="page-head"><h1>Menu</h1></div>
+			<div id="responsiveTabs" class="menu">
+			    <nav>
+			        <a href="#tab-1"> Appetizers </a>
+			        <a href="#tab-2"> Entrees </a>
+			        <a href="#tab-3"> Beverages </a>
+			        <a href="#tab-4"> Desserts </a>
+			    </nav>
+
+			    <p><strong>Good Family. Good Food. Good Fun.</strong> That is our motto and we stick by it.</p>
+					<p>Our food might not be exactly how your mom makes her spaghetti and meatballs, but we guarantee it's just as delicioius. From generation to generation, we've passed down secret recipes to make your dining experience as wonderful as possible. Not sure what you like? Just ask one of our many talented servers and they would be happy to recommmend something delicious.</p>
+				</p>
+
+			    <div id="tab-1">
+			    	<h3 class="heading">Appetizers</h3>
+
+						<h3>Soup Du Jour $6</h3>
+						<p class="menu_description">Our soup of the day changes, so please ask a server what the special is today.</p>
+
+						<h3>Escargot $8</h3>
+						<p class="menu_description">Prepared in their shell, our snails are of the finest quality and freshest taste. Add a side of melted butter for $1.</p>
+
+						<h3>Kobe Beef Carpaccio $9</h3>
+						<p class="menu_description">Thinly sliced beef prepared in olive oil and dusted with white truffles.</p>
+				</div>
+
+			    <div id="tab-2"> Entrees </div>
+			    <div id="tab-3"> Beverages </div>
+			    <div id="tab-4"> Desserts </div>
+			</div>
+
+
+			<div  class="page-head"><h1>Menu</h1></div>
+			<section id="menu-section" class="menu" >
+
+
+
+			<ul id="menu-tabs" class="nav nav-pills tab-content">
+				<li><a href="#menu" data-toggle="tab" class="menu-section tab-pane active" id="menu">Menu</a></li>
+				<li><a href="#appetizers" data-toggle="tab">Appetizers</a></li>
+				<li><a href="#entrees" data-toggle="tab">Entrees</a></li>
+				<li><a href="#beverages" data-toggle="tab">Beverages</a></li>
+				<li><a href="#desserts" data-toggle="tab">Desserts</a></li>
+			</ul>
+
+
+			<!-- tab content -->
+			<div class="tab-content">
+
+				<!-- Menu -->
+				<div class="menu-section tab-pane active" id="menu">
+					<p ><strong>Good Family. Good Food. Good Fun.</strong> That is our motto and we stick by it.</p>
+					<p>Our food might not be exactly how your mom makes her spaghetti and meatballs, but we guarantee it's just as delicioius. From generation to generation, we've passed down secret recipes to make your dining experience as wonderful as possible. Not sure what you like? Just ask one of our many talented servers and they would be happy to recommmend something delicious.</p>
+					</p>
+				</div><!-- ENDS Menu -->
+
+
+				<!-- Appetizers -->
+				<div class="tab-pane listing" id="appetizers">
+
+
+					<div class="entry">
+						<div class="clearfix">
+							<div class="rating p">
+							</div>
+							<h3 class="heading pull-leasft">Soup Du Jour</h3>
+
+						</div>
+						<p>Our soup of the day changes, so please ask a server what the special is today.</p>
+						$6
+					</div>
+
+					<div class="entry">
+						<div class="clearfix">
+							<div class="rating p">
+							</div>
+							<h3 class="heading pull-leasft">Escargot</h3>
+
+						</div>
+						<p>Prepared in their shell, our snails are of the finest quality and freshest taste. Add a side of melted butter for $1.</p>
+						$8
+					</div>
+
+					<div class="entry">
+						<div class="clearfix">
+							<div class="rating p">
+							</div>
+							<h3 class="heading pull-leasft">Kobe Beef Carpaccio</h3>
+
+						</div>
+						<p>Thinly sliced beef prepared in olive oil and dusted with white truffles.</p>
+						$9
+					</div>
+
+
+				</div><!-- ENDS Appetizers -->
+
+
+				<!-- Entrees -->
+				<div class="tab-pane" id="entrees">
+					<div class="entry">
+						<h3 class="heading">Duck Confit</h3>
+						<span class="date">$32</span>
+						<p>Feeling hungry? Served as an entire duck, this dish could easily feed two. Slowly poached until cooked, we make sure your meal will be incredibly tasty.</p>
+					</div>
+
+					<div class="entry">
+						<h3 class="heading">Mushroom Fettuccine</h3>
+						<span class="date">$18</span>
+						<p>A family spin on the classic fettuccine dish, we added three types of mushrooms to bring out the flavor in our family secret sauce.</p>
+					</div>
+
+					<div class="entry">
+						<h3 class="heading">Steak Tartare</h3>
+						<span class="date">$28</span>
+						<p>Served with onions and capers, this dish is lightly seared on only one side of the patty.</p>
+					</div>
+
+				</div><!-- ENDS Entrees -->
+
+				<!-- Beverages -->
+				<div class="tab-pane listing" id="beverages">
+
+					<div class="entry">
+						<h3 class="heading">Wine</h3>
+						<span class="date">$8-12 per glass</span>
+						<p>Ask your server for a complete list of our fine wines.</p>
+					</div>
+
+					<div class="entry">
+						<h3 class="heading">Soft Drinks</h3>
+						<span class="date">$2.50</span>
+						<p>Coke, Diet Coke, Sprite, Lemonade</p>
+					</div>
+
+					<div class="entry">
+						<h3 class="heading">Lattes</h3>
+						<span class="date">$5</span>
+						<p>Vanilla Latte</p>
+						<p>Caramel Latte</p>
+						<p>Hazelnut Latte</p>
+					</div>
+
+
+				</div><!-- ENDS Beverages -->
+
+				<!-- Desserts -->
+				<div class="tab-pane" id="desserts">
+					<div class="entry">
+						<h3 class="heading">Apple Galette</h3>
+						<span class="date">$7</span>
+						<p>Apple slices finely wrapped in douch and baked like an apple tart.</p>
+					</div>
+
+					<div class="entry">
+						<h3 class="heading">Triple-Layer Chocolate Macaroon Cake</h3>
+						<span class="date">$8</span>
+						<p>Rich chocolate fudge between three layers of flaky toasted cocoanut macaroon.</p>
+					</div>
+
+					<div class="entry">
+						<h3 class="heading">Lemon-Ricotta Souffles</h3>
+						<span class="date">$9</span>
+						<p>Not too sweet, this meringue tarte can be served warm or cool.</p>
+					</div>
+
+				</div><!-- ENDS Desserts -->
+
+		</div>
+	</body>
+</html>
