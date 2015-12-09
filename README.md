@@ -19,3 +19,9 @@ The datepicker is tied to a standard form input field. I decided to use this fea
 * [Packet Code -YouTube] (https://www.youtube.com/watch?v=t0y7o5J68ZQ)
 
 * [Utilizing jQuery - Video] (https://channel9.msdn.com/Series/Javascript-Fundamentals-Development-for-Absolute-Beginners/Installing-and-Utilizing-jQuery-Plugins-17)
+
+# Comments
+I finished my project before going to do the extra credit, however, I realized later that I missed a requirement in the project so I went and uptated it technically after I created my order form. 
+After I created my order form, I also went back and linked it in to my website so when a person goes to click the "order online" button on the homepage, it takes them directly to the order form.
+I really (really, really) hope you like it because I tried so hard on this part! This was definitely a challenging project for me, but I am finally starting to appreciate JS and jQuery and all that is can do!
+Thank you so much for being patient with myself and the rest of our class. It truly was a huge learning experience for me.
