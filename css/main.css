@@ -10,7 +10,6 @@ html,body {
 		font-family: 'Raleway', sans-serif;
 		text-align: center;
 }
-
 nav a{
 	position: relative;
 	top: 50%;
@@ -19,39 +18,29 @@ nav a{
 	padding-right: 1em;
 	font-weight: bold;
 }
-
 #navbar{
 	background-color: #f2803d;
 	height: 5%;
 }
-
 h1 {
 	font-family: 'Dancing Script', sans-serif;
 	font-size: 3.0em;
 	color: #3f1414;
 }
-
 h2 {
 	font-size: 1.5em;
 	color: #3f1414;
 }
-
-/*link text*/
 a {
 		color:#999;
-		/*color, font, size*/
 }
-
-/*hovering over a link*/
 a:hover {
 		color:#a50102;
 }
-/*picture widths*/
 .subhead {
 	max-width: 100%;
 	display: inline;
 }
-
 table {
 	text-align: center;
 	margin: auto;
@@ -60,7 +49,6 @@ table {
 	border-collapse: separate;
 	table-layout: fixed;
 }
-
 thead {
 	font-family: 'Dancing Script', sans-serif;
 	background-color: #f2803d;
@@ -68,8 +56,6 @@ thead {
 	border-collapse: separate;
 	color: #1f263f;
 }
-/*applies to all cells in the table*/
-
 td {
 	border-spacing: 1em;
 	border-collapse: separate;
@@ -78,12 +64,9 @@ td {
 	width: 100%;
 	border: 0.2em solid #da580c;
 }
-
 .heading{
 	border: 0.2em solid #da580c;
 }
-
-/*button style things. like color of the button background, text info*/
 button {
 	background-color: #f2803d;
 	font-family: 'Dancing Script', sans-serif;
@@ -93,18 +76,15 @@ button {
 	border-radius: 2em;
 	padding-left: 1em;
 }
-
 button:hover {
 	background-color: #3f4c7a;
 	color: #3f1414;
 }
-
 .inline {
 	margin: auto;
 	width: 100%;
 	padding-top: 1.5em;
 }
-
 .menu {
 	font-family: 'Dancing Script', sans-serif;
 	color: #3f4c7a;
@@ -112,12 +92,10 @@ button:hover {
 	float: right;
 	padding-right: 1em;
 }
-
 .menu_description{
 font-family: 'Raleway';
 font-size: 0.75em;
 }
-
 #container {
 	background-color: #f9e5a0;
 	width: 100%;
@@ -127,32 +105,25 @@ font-size: 0.75em;
 	padding-bottom: 3em;
 	margin-top: 1.5em;
 }
-
 .subhead {
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
 	color: #3f1414;
 }
-
-
 .stacking {
 	width: 100%;
 	display: block;
 }
-
 label, input {
 	display: block;
 	margin: auto;
 }
-
 label, input[type=text] {
 	width: 25%;
 }
-
 ul {
 	list-style-type: none;
 }
-
 @media (min-width: 608px) {
 	.stacking {
 	display: inline-block;
@@ -166,19 +137,3 @@ ul {
 	float: none;
 	}
 }
-
-
-
-/*
-color swatches
-darkblue: #1f263f;
-blue: #3f4c7a;
-yellow:#f8dc7a;
-orange:#f2803d;
-red:#a50102;
-maroon:#3f1414;
-background yellow: #faf5e2;
-dark orange: #da580c;
-*/
-
-
