@@ -8,7 +8,9 @@
 
 		<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.7.1.min.js"></script>
 		<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.17/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
 		<script type="text/javascript" src="js/tab.js"> </script>
+		<script type="text/javascript" src="js/date.js"> </script>
 		<link rel="stylesheet" type="text/css" href="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.17/themes/humanity/jquery-ui.css" />
 		<link rel="stylesheet" href="css/main.css" />
 
@@ -24,7 +26,6 @@
 		<div id="container">
 				<h1 id="title">Hours of Operation</h1>
 
-				<div class="demo">
 				<div id="tabs">
 				  <ul>
 				    <li><a href="#tabs-1">Monday-Friday</a></li>
@@ -40,6 +41,14 @@
 				  <div id="tabs-3">
 				    <p>12:00PM - 9:00PM</p>
 				  </div>
+				</div>
+
+				<div>
+					<form onsubmit="send()">
+						<label>To make a reservation, click below:</label>
+						<input type="text" id="datepicker" placeholder="Date" name="calendar">
+						<input type="submit" value="Send" name="submit" id="submit"/>
+					</form>
 				</div>
 		</div>
 	</body>
