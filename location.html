@@ -6,8 +6,12 @@
 		<meta name="description" content="Gusteau's Restaurant.">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
+		<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.17/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="js/tab.js"> </script>
+		<link rel="stylesheet" type="text/css" href="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.17/themes/humanity/jquery-ui.css" />
 		<link rel="stylesheet" href="css/main.css" />
+
 	</head>
 	<body>
 		<nav id="navbar">
@@ -18,6 +22,25 @@
 		</nav>
 
 		<div id="container">
+				<h1 id="title">Hours of Operation</h1>
+
+				<div class="demo">
+				<div id="tabs">
+				  <ul>
+				    <li><a href="#tabs-1">Monday-Friday</a></li>
+				    <li><a href="#tabs-2">Saturday</a></li>
+				    <li><a href="#tabs-3">Sunday</a></li>
+				  </ul>
+				  <div id="tabs-1">
+				    <p>11:00AM - 10:00PM</p>
+				  </div>
+				  <div id="tabs-2">
+				    <p>11:00AM - 11:00PM</p>
+				  </div>
+				  <div id="tabs-3">
+				    <p>12:00PM - 9:00PM</p>
+				  </div>
+				</div>
 		</div>
 	</body>
 </html>

@@ -6,19 +6,12 @@
 		<meta name="description" content="Gusteau's Restaurant.">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
-		<link rel="stylesheet" href="css/main.css" />
-
 		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-		<script src="js/slider/source/jquery.slides.min.js"></script>
-		<script>
-	    $(function(){
-	      $("#slides").slidesjs({
-	        width: 940,
-	        height: 528
-	      });
-	    });
-	  </script>
+		<script type="text/javascript" src="js/slider.js"></script>
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/slider.css">
+
+
 
 	</head>
 	<body>
@@ -29,62 +22,33 @@
 			<a href="location.html">Location</a>
 		</nav>
 		<div id="container">
-			<div id="slides">
-			    <img src="http://placehold.it/940x528">
-			    <img src="http://placehold.it/940x528">
-			    <img src="http://placehold.it/940x528">
-			    <img src="http://placehold.it/940x528">
-			    <img src="http://placehold.it/940x528">
-  			</div>
-		<div>
-			<img src="img/gusteau_logo_vector.png" alt="Gusteau's">
-			<h1>Bienvenue</h1>
-			<h2>We're glad you're here.</h2>
+			<div>
+				<img src="img/gusteau_logo_vector.png" alt="Gusteau's">
+				<h1>Bienvenue</h1>
+				<h2>Meet Our Chefs</h2>
+			</div>
+
+
+
+		<div class="slides">
+			<img src="img/gusteau.jpg" height="300" width="500" />
+			<img src="img/remyandcolette.jpg" height="300" width="500" />
+			<img src="img/skinner.jpg" height="300" width="500" />
 		</div>
+
+
 
 		<div>
 		<div class="stacking">
-			<table>
+		<table>
 			<thead>
 				<tr>
-					<td class="heading" colspan="2"><h2>Fresh</h2></td>
+					<td><h2>Head Chef Gusteau</h2> <p class="subhead">Known for fine wines and stinky cheeses.</p></td>
+					<td><h2>Remy & Colette</h2> <p class="subhead">The most talented sous chefs in all of France.</p></td>
+					<td><h2>Skinner</h2> <p class="subhead">Voted "shortest chef" 5 years in a row.</p></td>
 				</tr>
 			</thead>
 			<tbody>
-				<tr>
-					<td><img src="img/fresh.jpg" alt="Fresh" class="subhead"></td>
-					<td>Our freshest ingredients from kitchen to table.</td>
-				</tr>
-			</tbody>
-		</table>
-		</div>
-		<div class="stacking">
-			<table>
-			<thead>
-				<tr>
-					<td class="heading" colspan="2"><h2>Scenic</h2></td>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td><img src="img/scenic.jpg" alt="Scenic" class="subhead"></td>
-					<td>As they say, everything happens in France.</td>
-				</tr>
-			</tbody>
-		</table>
-		</div>
-		<div class="stacking">
-			<table>
-			<thead>
-				<tr>
-					<td class="heading" colspan="2"><h2>Traditional</h2></td>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td><img src="img/traditional.jpg" alt="Traditional" class="subhead"></td>
-					<td>Just like grandma used to make it.</td>
-				</tr>
 			</tbody>
 		</table>
 		</div>
@@ -95,7 +59,6 @@
 		<button type="button">
 			Order Online
 		</button>
-	<a href="cafemenu.png" class="menu">Menu</a>
 	</div>
 	</div>
 
