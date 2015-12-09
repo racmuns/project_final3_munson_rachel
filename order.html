@@ -5,6 +5,7 @@
 		<title>Gusteau's</title>
 		<meta name="description" content="Gusteau's Restaurant.">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script type="text/javascript" src="js/main.js"></script>
 
 
 		<link rel="stylesheet" href="css/main.css" />
@@ -18,18 +19,25 @@
 		</nav>
 
 		<div id="container">
-			<form>
-				<label>Your Email</label>
-				<input type="text" class="input-xlarge" placeholder="Name" id="name">
-				<select name="cars">
-					<option value="volvo">1</option>
-					<option value="saab">2</option>
-					<option value="fiat">3</option>
-					<option value="audi">4</option>
+
+			<div>
+				<p id="order"></p>
+			</div>
+			<form onchange="changeOrder()" onsubmit="send()" id="orderForm">
+				<label>Name</label>
+				<input type="text" placeholder="Name" id="name">
+				<label>Menu Item</label>
+				<select name="menuItems">
+					<option value="escargot">Escargot</option>
+					<option value="duckconfit">Duck Confit</option>
+					<option value="coke">Coke</option>
+					<option value="applegalette">Apple Galette</option>
 				</select>
-				<input type="number" class="input-xlarge" id="quantity" value="1">
+				<label>Quantity</label>
+				<input type="number" id="quantity" value="1">
 				<input type="submit" value="Place Order">
 			</form>
 		</div>
+
 	</body>
 </html>
