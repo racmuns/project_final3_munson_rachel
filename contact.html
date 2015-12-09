@@ -2,12 +2,14 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Gusteau's</title>
+		<title>Contact</title>
 		<meta name="description" content="Gusteau's Restaurant.">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
-		<link rel="stylesheet" href="css/main.css" />
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<script type="text/javascript" src="js/notify.js"></script>
+		<link rel="stylesheet" href="css/main.css"/>
 	</head>
 	<body>
 		<nav id="navbar">
@@ -19,39 +21,33 @@
 
 		<div id="container">
 			<!-- Contact -->
-		<section id="contact-section" >
-			<div  class="page-header"><h1>Contact</h1></div>
+			<h1 class="page-head">Contact</h1>
 
-			<div class="row">
 			<!-- Form col -->
-			<div class="span8">
-				<form class="well" id="contactForm" action="#" method="post">
+				<form onsubmit="send()">
 					<label>Your Name</label>
-					<input type="text" class="input-xlarge" placeholder="Name" name="name" id="name">
+					<input type="text" placeholder="Name" name="name" id="name">
 					<label>Your Email</label>
-					<input type="text" class="input-xlarge" placeholder="Email" name="email" id="email">
+					<input type="text" placeholder="Email" name="email" id="email">
 					<label>Your Birthday</label>
-					<input type="text" class="input-xlarge" placeholder="Enter DOB for a $10 gift certificate!" name="birthday" id="birthday">
+					<input type="text" placeholder="Enter DOB for a $10 gift certificate!*" name="birthday" id="birthday">
 					<label>Message</label>
-					<textarea class="input-xxlarge"  rows="4"  name="comments"  id="comments"></textarea>
+					<textarea rows="4" name="comments"  id="comments"></textarea>
 
-					<p><input type="button" value="Send" name="submit" id="submit" class="btn"/></p>
+					<p><input type="submit" value="Send" name="submit" id="submit"/></p>
 				</form>
-			</div><!-- ENDS form col -->
+			<!-- ENDS form col -->
 
-
-			<div class="span4">
-				<ul class="address-block unstyled">
-        			<li class="address"> 2319 Brick Street, Paris, France 11111</li>
-        			<li class="phone"> +333 456 999</li>
-        			<li class="email"><a href="mailto:reservations@gusteau.com"> reservations@gusteau.com</a></li>
-        			<li class="social"><a href="http://facebook.com"> Facebook</a></li>
-        			<li class="social"><a href="htttwitter.com"> Twitter</a></li>
+			<div>
+				<p> 2319 Brick Street, Paris, France 11111 <br>+333 456 999</p>
+				<ul>
+        			<li> To make a reservation, email us at:<a href="mailto:reservations@gusteau.com"> reservations@gusteau.com</a></li>
+        			<li><a href="http://facebook.com"> Facebook</a></li>
+        			<li><a href="htttwitter.com"> Twitter</a></li>
         		</ul>
+        		<p>* Gift Certificates: Limit one per person, per year.</p>
 			</div>
 
-			</div>
-		</section><!-- ENDS Contact -->
 		</div>
 	</body>
 </html>
